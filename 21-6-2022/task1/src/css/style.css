@@ -1,0 +1,15 @@
+p{
+    color:red;
+}
+
+table{
+    width: 80vw;
+}
+
+table tr{
+    width: 100%;
+}
+
+table label{
+    color: aqua;
+}
