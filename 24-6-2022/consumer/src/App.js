@@ -102,7 +102,7 @@ class App extends Component{
       <button type="submit" className="btn btn-primary mb-2">Confirm identity</button>
 
 {
-    this.state.users.filter((user) => user.name.includes(this.state.search)).map((user) => (
+    this.state.users.filter((user) => user.name.toLowerCase().includes(this.state.search.toLowerCase())).map((user) => (
     <h2 key={user.id}>
       {user.id} - {user.name}
     </h2>
